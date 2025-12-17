@@ -1,6 +1,7 @@
 # Sistema de Gestión de Productos en Python
 
 ## Descripción
+
 Este es un sistema simple de gestión de productos realizado en Python que utiliza una base de datos SQLite para almacenar y manipular información sobre productos. El sistema permite realizar las siguientes operaciones:
 
 - **Agregar productos**: Ingresar nuevos productos con detalles como nombre, descripción, categoría, cantidad y precio.
@@ -9,12 +10,13 @@ Este es un sistema simple de gestión de productos realizado en Python que utili
 - **Eliminar productos**: Eliminar productos por su ID.
 - **Buscar productos**: Buscar productos por nombre.
 - **Reporte de bajo stock**: Mostrar productos cuyo stock esté por debajo de un valor mínimo establecido.
-  
+
 El sistema también maneja errores en la entrada de datos y valida que los valores sean correctos antes de almacenarlos en la base de datos.
 
 ---
 
 ## Requisitos
+
 - Python 3.x
 - Bibliotecas:
   - **sqlite3** (Para gestionar la base de datos SQLite)
@@ -91,7 +93,7 @@ Ejecuta el archivo Python que contiene el código. Esto abrirá el menú princip
 
 bash
 Copy code
-python gestion_productos.py
+python inventario_db_compro_clever.py
 Sigue las instrucciones en pantalla para realizar las operaciones que desees.
 
 Ejemplo de Salida
@@ -100,16 +102,16 @@ Al ejecutar el programa, el menú inicial podría verse así:
 markdown
 Copy code
  _____________________________________________________
- Welcome al Menu de gestion de productos Compro Clever 
- \---------------------------------------------------/ 
+ Welcome al Menu de gestion de productos Compro Clever
+ \---------------------------------------------------/
 
  1. Alta de productos nuevos
- 2. Listado completo de productos 
+ 2. Listado completo de productos
  3. Actualizar productos
- 4. Eliminar productos 
+ 4. Eliminar productos
  5. Buscar productos
- 6. Reporte de bajo stock 
- 7. Salir 
+ 6. Reporte de bajo stock
+ 7. Salir
 Si seleccionas la opción para agregar un producto nuevo, podrías ver algo así:
 
 yaml
@@ -120,3 +122,4 @@ Ingrese la categoria del producto: Ropa
 Ingrese la cantidad en stock: 100
 Ingrese el precio del producto: 25.50
 Producto Camisa agregado exitosamente.
+```
